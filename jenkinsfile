@@ -1,4 +1,4 @@
- def send slacknotifications(String buildStatus = 'STARTED'){
+ def sendslacknotifications(String buildStatus = 'STARTED'){
             buildStatus =  buildStatus ?: 'SUCCESSFUL'
 
             // Default values
